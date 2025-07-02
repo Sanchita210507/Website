@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us | SAIMA Staples</title>
+  <link rel="stylesheet" href="./contact.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    crossorigin="anonymous"
+  />
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <div class="header">
+    <div class="logo1">Manufacturer of Heavy Duty Staples</div>
+    <div class="logo2">
+      <ul class="social-links">
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+      </ul>
+      <div class="top-right">
+        <ul class="info-list">
+          <li><a href="#"><i class="icon fa fa-phone"></i><span class="txt"> +91 9922146662/63</span></a></li>
+          <li><a href="#"><i class="icon fa fa-envelope-open"></i><span class="txt"> sales@venkateshwire.in</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <!-- NAVIGATION SECTION -->
+  <nav class="navbar">
+    <div class="logo-section">
+      <a href="./index.html" class="logo-link">
+        <img src="./images/logo.png" alt="Saima Logo"/>
+        <span class="brand-name">SAIMA STAPLES</span>
+      </a>
+    </div>
+  
+    <!-- Hamburger -->
+    <div class="hamburger" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+  
+    <ul class="nav-links" id="navMenu">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./aboutus.html">About Us</a></li>
+      <li class="dropdown">
+        <a href="#">Products</a>
+        <ul class="dropdown-menu">
+          <li><a href="./product10.html">No. 10</a></li>
+          <li><a href="#">No. 23 Series</a></li>
+          <li><a href="#">No. 24/6</a></li>
+          <li><a href="#">No. 80 Series</a></li>
+          <li><a href="#">No. 100 Series</a></li>
+        </ul>
+      </li>
+      <li><a href="./contact.html">Contact</a></li>
+      <li class="btn-box">
+        <a href="./contact.html" class="btn-style-one">Contact Now</a>
+      </li>
+    </ul>
+  </nav>
+  
+  <script>
+    function toggleMenu() {
+      document.getElementById('navMenu').classList.toggle('active');
+    }
+  </script>
+
+  <!-- Contact Section -->
+  <section class="py-16 px-4 container mx-auto">
+    <h1 class="text-4xl font-bold mb-6 text-center">Get in Touch</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+      <!-- Contact Info -->
+      <!-- Contact Info in Blue Box -->
+<div class="bg-blue-100 p-6 rounded-xl shadow-md space-y-4 border border-blue-300">
+  <h2 class="text-2xl font-semibold text-blue-800 mb-2">Contact Details</h2>
+  <p><strong>Address:</strong><br>
+    Venkatesh Wire Products<br>
+    Plot No. 123, MIDC Area,<br>
+    Pune, Maharashtra, India - 411001
+  </p>
+  <p><strong>Email:</strong> <a href="mailto:info@venkateshwire.in" class="text-blue-700 underline">info@venkateshwire.in</a></p>
+  <p><strong>Phone:</strong> <a href="tel:+911234567890" class="text-blue-700 underline">+91-12345-67890</a></p>
+  <p><strong>Working Hours:</strong><br>Mon - Sat: 9:00 AM to 6:00 PM</p>
+</div>
+
+
+      <!-- Contact Form -->
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSetNDJgCtigT1WIR3Vd-Prev3_rBN-AHz_zfWYSdVyxNnRf9Q/viewform?embedded=true" width="540" height="959" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </section>
+
+  
+
+  <iframe 
+  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d946.0898431548644!2d73.789125!3d18.467374!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc295856aa0e633%3A0x97324490d12704ec!2sVenkatesh%20Industries!5e0!3m2!1sen!2sin!4v1750071093117!5m2!1sen!2sin" 
+  width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy">
+</iframe>
+
+<footer>
+  <div class="footer-container">
+    
+    <!-- Logo Section -->
+    <a href="./index.html" > <div class="footer-logo-box">
+     <img src="./images/logo.png" alt="SAIMA logo" class="footer-logo">
+      <span class="footer-heading">SAIMA STAPLES</span>
+    </div>
+  </a>
+
+    <!-- Info Section -->
+    <div class="footer-info">
+      <p>"Venkatesh Industries is one of the leading manufacturers of CO2 MIG Welding Wire & SS TIG/MIG Welding Wire & all types of Staple Pins under the 'Saima' brand."</p>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="footer-contact">
+      <h3>Contact Us</h3>
+      <p><a href="#" ><i class="fa fa-phone"></i>+91 9922146662/63</p></a>
+      <p><a href="https://maps.app.goo.gl/cYLKLdZpnaomPAxD9" ><i class="fa fa-map-marker-alt"></i> Shivane, Maharashtra, Pune-411023</p></a>
+      <p><a href="#" ><i class="fa fa-envelope"></i> sales@venkateshwire.in</p></a>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>
